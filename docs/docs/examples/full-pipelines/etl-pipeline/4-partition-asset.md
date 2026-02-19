@@ -49,7 +49,7 @@ To materialize these assets:
 
 1. Navigate to the assets page.
 2. Reload definitions.
-3. Select the `monthly_sales_performance` asset, then **Materialize selected**.
+3. Select the `monthly_orders` asset, then **Materialize selected**.
 
    When materializing a partitioned asset, you will need to select which partitions to execute. Because our partition has a start date (`"2018-01-01"`) and no end date, there will be partitions for every month starting from 2018. Only select partitions for the first four months of 2018:
 
